@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Caneta
+comment0.text=\r\n\ Classe\ para\ representar\ um\ objeto\ caneta\ e\ suas\ funcionalidades.\r\n\ \r\n\ @author\ (Silvano)\ \r\n\ @version\ (1.0)\r\n
+comment1.params=cor\ tamanhoDaPonta\ nivelDeTinta
+comment1.target=Caneta(java.lang.String,\ double,\ int)
+comment2.params=texto
+comment2.target=void\ escrever(java.lang.String)
+comment3.params=
+comment3.target=void\ verificarNivelDeTinta()
+comment4.params=
+comment4.target=void\ recarregarTinta()
+numComments=5
