@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Monitor
+comment1.params=resolucao\ modelo
+comment1.target=Monitor(int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ ligar()
+comment3.params=
+comment3.target=void\ desligar()
+comment4.params=resolucao
+comment4.target=void\ ajustarResolucao(int)
+comment5.params=
+comment5.target=void\ informacoesDoMonitor()
+numComments=6
