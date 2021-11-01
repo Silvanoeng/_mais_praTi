@@ -14,10 +14,27 @@
    <br><br>
 
    <%
-   String sIdade = request.getParameter("idade");
-   
 
+   String sIdade = request.getParameter("idade");
+   String msg = "";
+   try {
    
+        
+        int iIdade = (int) Integer.parseInt(sIdade);
+
+        if (iIdade>=18){
+            msg = "Ok, tudo certo.";
+        } else {
+            msg = "Não pode entrar.";
+        }
+   } catch(NumberFormatException ne) {
+       msg = ne.getMessage();
+   } catch (Exception e) {
+       msg = e.getMessage();
+   }
+
+   out.print(msg);
+
    %>
 
 
